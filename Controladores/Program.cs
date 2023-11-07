@@ -2,11 +2,20 @@
 
 namespace Ejercicio5mixC
 {
+    /// <summary>
+    /// Clase principal de la aplicación.
+    /// 071123 - csl
+    /// </summary>
     class program
     {
+        /// <summary>
+        /// Método main de la aplicación.     
+        /// 171023 - csl
+        /// </summary>
+        /// <param name="args"></param>
         public static void Main(String[] args)
         {
-            string caracter;            
+            string caracter;    
             do
             {
                 MenuInterfaz mi = new MenuImplementacion();

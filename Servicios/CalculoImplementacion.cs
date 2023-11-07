@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ejercicio5mixC.Servicios
 {
+    /// <summary>
+    /// Implementación de la Interfaz de calculos.
+    /// 071123 - csl              
+    /// </summary>
     internal class CalculoImplementacion : CalculoInterfaz
     {
         public static bool Bisiesto(int año)
